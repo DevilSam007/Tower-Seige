@@ -64,3 +64,9 @@ function mouseDragged() {
 function mouseReleased() {
     slingshot.fly()
 }
+
+function keyPressed(){
+    if(keyCode === 82){
+        slingshot.Attached(polygon.body);
+    }
+}
