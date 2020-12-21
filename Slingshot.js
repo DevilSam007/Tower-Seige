@@ -14,6 +14,10 @@ class SlingShot{
     this.sling.bodyA = null;
     }
 
+    Attached(body){
+        this.sling.bodyA = body;
+    }
+
     display(){
 
         if(this.sling.bodyA){
